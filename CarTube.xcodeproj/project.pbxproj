@@ -14,12 +14,10 @@
 		250B50ED2953D29100397038 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250B50EA2953D29100397038 /* CarPlaySceneDelegate.swift */; };
 		250B50EE2953D29100397038 /* CarPlaySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250B50EB2953D29100397038 /* CarPlaySingleton.swift */; };
 		250B50F32953D2F600397038 /* SponsorBlock.js in Resources */ = {isa = PBXBuildFile; fileRef = 250B50F12953D2F600397038 /* SponsorBlock.js */; };
-		250B50F52953D37A00397038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250B50F42953D37A00397038 /* Assets.xcassets */; };
+		250B50F52953D37A00397038 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		255396962967BA8B00E49F9E /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255396952967BA8B00E49F9E /* String++.swift */; };
 		257D148C297A3F040095689E /* HideScrollBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D1489297A3E6B0095689E /* HideScrollBar.m */; };
 		257D148D297A3F270095689E /* AutoHookImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D148A297A3E6B0095689E /* AutoHookImplementor.m */; };
-		257D1495297A58220095689E /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D1494297A58220095689E /* ShareViewController.swift */; };
-		257D149C297A58220095689E /* PlayOnCarTube.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 257D1492297A58220095689E /* PlayOnCarTube.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2582148C296559EA00610408 /* Alert++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2578407829540CC900357803 /* Alert++.swift */; };
 		25821490296567EC00610408 /* Incrementer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582148F296567EC00610408 /* Incrementer.swift */; };
 		25838A2A297BD69600B3990A /* AutoResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 25838A29297BD69600B3990A /* AutoResize.m */; };
@@ -37,16 +35,6 @@
 		25F18067295EC2A5007B9940 /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 25F18066295EC2A5007B9940 /* Dynamic */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		257D149A297A58220095689E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 250B50C42953D12500397038 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 257D1491297A58220095689E;
-			remoteInfo = PlayOnCarTube;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		250B510E2953D59B00397038 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -54,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				257D149C297A58220095689E /* PlayOnCarTube.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +58,6 @@
 		250B50EA2953D29100397038 /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
 		250B50EB2953D29100397038 /* CarPlaySingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPlaySingleton.swift; sourceTree = "<group>"; };
 		250B50F12953D2F600397038 /* SponsorBlock.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SponsorBlock.js; sourceTree = "<group>"; };
-		250B50F42953D37A00397038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../TrollTube/TrollTube/Assets.xcassets; sourceTree = "<group>"; };
 		250B50FD2953D59B00397038 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 		255396952967BA8B00E49F9E /* String++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String++.swift"; sourceTree = "<group>"; };
 		2578407829540CC900357803 /* Alert++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert++.swift"; sourceTree = "<group>"; };
@@ -80,9 +66,6 @@
 		257D1489297A3E6B0095689E /* HideScrollBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideScrollBar.m; sourceTree = "<group>"; };
 		257D148A297A3E6B0095689E /* AutoHookImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHookImplementor.m; sourceTree = "<group>"; };
 		257D148B297A3E6B0095689E /* _UIStaticScrollBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _UIStaticScrollBar.h; sourceTree = "<group>"; };
-		257D1492297A58220095689E /* PlayOnCarTube.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlayOnCarTube.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		257D1494297A58220095689E /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		257D1499297A58220095689E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2582148F296567EC00610408 /* Incrementer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incrementer.swift; sourceTree = "<group>"; };
 		25838A29297BD69600B3990A /* AutoResize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoResize.m; sourceTree = "<group>"; };
 		25838A2B297BD82100B3990A /* UIScreen+_isCarScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+_isCarScreen.h"; sourceTree = "<group>"; };
@@ -111,13 +94,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		257D148F297A58220095689E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				250B50CE2953D12500397038 /* CarTube */,
-				257D1493297A58220095689E /* PlayOnCarTube */,
 				250B50FC2953D59B00397038 /* Frameworks */,
 				250B50CD2953D12500397038 /* Products */,
 			);
@@ -135,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				250B50CC2953D12500397038 /* CarTube.app */,
-				257D1492297A58220095689E /* PlayOnCarTube.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,7 +126,6 @@
 				250B50F62953D3D800397038 /* CarPlay */,
 				250B50E82953D26200397038 /* CarTube.entitlements */,
 				250B50CF2953D12500397038 /* CarTubeApp.swift */,
-				250B50F42953D37A00397038 /* Assets.xcassets */,
 				2583A81529663CF300EBEFB9 /* Util */,
 				250B50D52953D12800397038 /* Preview Content */,
 			);
@@ -215,15 +188,6 @@
 				25838A29297BD69600B3990A /* AutoResize.m */,
 			);
 			path = Hooks;
-			sourceTree = "<group>";
-		};
-		257D1493297A58220095689E /* PlayOnCarTube */ = {
-			isa = PBXGroup;
-			children = (
-				257D1494297A58220095689E /* ShareViewController.swift */,
-				257D1499297A58220095689E /* Info.plist */,
-			);
-			path = PlayOnCarTube;
 			sourceTree = "<group>";
 		};
 		2582148B2965595F00610408 /* Views */ = {
@@ -292,7 +256,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				257D149B297A58220095689E /* PBXTargetDependency */,
 			);
 			name = CarTube;
 			packageProductDependencies = (
@@ -301,23 +264,6 @@
 			productName = CarTube;
 			productReference = 250B50CC2953D12500397038 /* CarTube.app */;
 			productType = "com.apple.product-type.application";
-		};
-		257D1491297A58220095689E /* PlayOnCarTube */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 257D149D297A58220095689E /* Build configuration list for PBXNativeTarget "PlayOnCarTube" */;
-			buildPhases = (
-				257D148E297A58220095689E /* Sources */,
-				257D148F297A58220095689E /* Frameworks */,
-				257D1490297A58220095689E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PlayOnCarTube;
-			productName = PlayOnCarTube;
-			productReference = 257D1492297A58220095689E /* PlayOnCarTube.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -332,9 +278,6 @@
 					250B50CB2953D12500397038 = {
 						CreatedOnToolsVersion = 13.2.1;
 						LastSwiftMigration = 1420;
-					};
-					257D1491297A58220095689E = {
-						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
@@ -355,7 +298,6 @@
 			projectRoot = "";
 			targets = (
 				250B50CB2953D12500397038 /* CarTube */,
-				257D1491297A58220095689E /* PlayOnCarTube */,
 			);
 		};
 /* End PBXProject section */
@@ -368,17 +310,10 @@
 				2587378A2964F03D009EAA2A /* NoSleepEnable.js in Resources */,
 				250B50D72953D12800397038 /* Preview Assets.xcassets in Resources */,
 				250B50F32953D2F600397038 /* SponsorBlock.js in Resources */,
-				250B50F52953D37A00397038 /* Assets.xcassets in Resources */,
+				250B50F52953D37A00397038 /* (null) in Resources */,
 				25838A33297BEBC400B3990A /* AgeRestrictBypass.js in Resources */,
 				25838A35297C00D400B3990A /* AdBlocker.js in Resources */,
 				25EED73A295F05AA00C0DF56 /* CustomLayout.js in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		257D1490297A58220095689E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,23 +345,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		257D148E297A58220095689E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				257D1495297A58220095689E /* ShareViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		257D149B297A58220095689E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 257D1491297A58220095689E /* PlayOnCarTube */;
-			targetProxy = 257D149A297A58220095689E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		250B50D82953D12800397038 /* Debug */ = {
@@ -551,14 +470,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CarTube/CarTube.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarTube/Preview Content\"";
-				DEVELOPMENT_TEAM = U67AKNW8PW;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2NXEFCKL9L;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
@@ -569,16 +490,18 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = microphone;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avangelista.CarTube;
+				PRODUCT_BUNDLE_IDENTIFIER = jbeen.CarTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS March 2024";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -594,14 +517,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CarTube/CarTube.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarTube/Preview Content\"";
-				DEVELOPMENT_TEAM = U67AKNW8PW;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2NXEFCKL9L;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
@@ -612,16 +537,18 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = microphone;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avangelista.CarTube;
+				PRODUCT_BUNDLE_IDENTIFIER = jbeen.CarTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS March 2024";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -629,60 +556,6 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "CarTube/CarTube-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		257D149E297A58220095689E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U67AKNW8PW;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlayOnCarTube/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Play On CarTube";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avangelista.CarTube.PlayOnCarTube;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		257D149F297A58220095689E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U67AKNW8PW;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlayOnCarTube/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Play On CarTube";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avangelista.CarTube.PlayOnCarTube;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -703,15 +576,6 @@
 			buildConfigurations = (
 				250B50DB2953D12800397038 /* Debug */,
 				250B50DC2953D12800397038 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		257D149D297A58220095689E /* Build configuration list for PBXNativeTarget "PlayOnCarTube" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				257D149E297A58220095689E /* Debug */,
-				257D149F297A58220095689E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
